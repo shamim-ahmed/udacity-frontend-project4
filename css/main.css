@@ -23,5 +23,22 @@ h1.dev-name {
 }
 
 div.color-palette {
-  text-align: center;
+}
+
+div.color-box {
+  width: 5vw;
+  height: 5vw;
+  margin: 0 auto;
+}
+
+div.color-1 {
+  background-color: red;
+}
+
+div.color-2 {
+  background-color: green;
+}
+
+div.color-3 {
+  background-color: blue;
 }
