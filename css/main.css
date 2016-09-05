@@ -8,8 +8,9 @@ body {
   margin-top: 20px;
 }
 
-.logo {
-  margin: 0 0 10px;
+.logo img {
+  width: 60px;
+  max-width: 100%;
 }
 
 .color-image {
