@@ -8,6 +8,24 @@ body {
   margin-top: 20px;
 }
 
+.logo {
+  margin: 0 0 10px;
+}
+
+.color-image {
+  margin: 0 auto;
+}
+
+.color-image img {
+  display: block;
+  width: 66.67%;
+  margin: 0 auto;
+}
+
+figcaption {
+  text-align: center;
+}
+
 h1.dev-name {
   margin-top: 0px;
   text-transform: uppercase;
