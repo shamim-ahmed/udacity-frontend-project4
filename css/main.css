@@ -41,24 +41,12 @@ img {
   width: 100%;
 }
 
-div.color-box {
-  width: 5vw;
-  height: 5vw;
-  margin: 0 auto;
-}
-
-div.color-1 {
-  background-color: red;
-}
-
-div.color-2 {
-  background-color: green;
-}
-
-div.color-3 {
-  background-color: blue;
-}
-
 h3.featured-title {
   padding-left: 15px;
+}
+
+@media screen and (max-width: 400px) {
+  figcaption {
+    font-size: 10px;
+  }
 }
