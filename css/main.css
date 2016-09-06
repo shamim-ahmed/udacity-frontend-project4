@@ -45,7 +45,7 @@ h3.featured-title {
   padding-left: 15px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
   figcaption {
     font-size: 0.8em;
   }
