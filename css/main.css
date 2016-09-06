@@ -20,7 +20,7 @@ body {
 .color-image img {
   display: block;
   width: 66.67%;
-  margin: 0 auto;
+  margin: 0 0 0 auto;
 }
 
 figcaption {
@@ -47,6 +47,16 @@ h3.featured-title {
 
 @media screen and (max-width: 400px) {
   figcaption {
-    font-size: 10px;
+    font-size: 0.8em;
+  }
+
+  h1.dev-name {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .color-image img {
+    margin: 0 auto;
   }
 }
