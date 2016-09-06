@@ -48,6 +48,14 @@ h3.featured-title {
   h1.dev-name {
     font-size: 1.5em;
   }
+
+  h3.dev-title, h3.featured-title {
+    font-size: 1.2em;
+  }
+
+  h3.dev-title {
+    margin-top: 5px;
+  }
 }
 
 @media screen and (max-width: 600px) {
