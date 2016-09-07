@@ -3,7 +3,7 @@ body {
   padding-bottom: 20px;
 }
 
-p.description {
+.description {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
 }
@@ -30,7 +30,7 @@ figcaption {
   text-align: center;
 }
 
-h1.dev-name {
+.dev-name {
   margin-top: 0;
   text-transform: uppercase;
   font-family: 'Lato', sans-serif;
@@ -43,7 +43,7 @@ h1.dev-name {
   font-weight: 300;
 }
 
-figcaption.color-code {
+.color-code {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
 }
@@ -62,18 +62,18 @@ img {
   text-align: left;
 }
 
-h2.featured-title {
+.featured-title {
   padding-left: 15px;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
 }
 
-h3.article-title {
+.article-title {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
 }
 
-div.markup-image {
+.markup-image {
   border-top: 2px solid gray;
   padding-top: 15px;
 }
@@ -87,19 +87,19 @@ article {
     font-size: 10px;
   }
 
-  h1.dev-name {
+  .dev-name {
     font-size: 1.5em;
   }
 
-  h2.featured-title {
+  .featured-title {
     font-size: 1.2em;
   }
 
-  p.dev-title, h3.article-title {
+  .dev-title, .article-title {
     font-size: 1.1em;
   }
 
-  p.dev-title {
+  .dev-title {
     margin-top: 5px;
   }
 }
