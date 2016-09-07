@@ -52,16 +52,6 @@ img {
   width: 100%;
 }
 
-.modal-body img {
-  width: 50%;
-  margin: 0 auto;
-}
-
-.modal-body p {
-  margin-top: 1.5em;
-  text-align: left;
-}
-
 .featured-title {
   padding-left: 15px;
   font-family: 'Lato', sans-serif;
@@ -82,6 +72,35 @@ article {
   text-align: center;
 }
 
+.details button {
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+/** all style definitions related to modal dialog **/
+.modal-body img {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.modal-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+.modal-body .description {
+  margin-top: 1.5em;
+  text-align: left;
+}
+
+.modal-footer button {
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+/** media queries for devices of different resolution **/
+/** breakpoint one: 480px **/
 @media screen and (max-width: 480px) {
   body {
     font-size: 10px;
@@ -104,6 +123,7 @@ article {
   }
 }
 
+/** breakpoint two: 600px **/
 @media screen and (max-width: 600px) {
   figcaption {
     font-size: 0.7em;
