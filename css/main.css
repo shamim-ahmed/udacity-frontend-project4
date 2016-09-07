@@ -1,8 +1,11 @@
 body {
   font-size: 13px;
+  padding-bottom: 20px;
+}
+
+p.description {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-  padding-bottom: 20px;
 }
 
 .site-header {
@@ -40,8 +43,23 @@ h1.dev-name {
   font-weight: 300;
 }
 
+figcaption.color-code {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
 img {
   width: 100%;
+}
+
+.modal-body img {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.modal-body p {
+  margin-top: 1.5em;
+  text-align: left;
 }
 
 h2.featured-title {
@@ -51,7 +69,9 @@ h2.featured-title {
 }
 
 h3.article-title {
-  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 div.markup-image {
