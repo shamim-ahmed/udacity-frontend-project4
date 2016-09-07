@@ -30,11 +30,14 @@ figcaption {
 h1.dev-name {
   margin-top: 0;
   text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
   font-weight: 300;
 }
 
 .dev-info {
   text-align: right;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
 }
 
 img {
@@ -43,6 +46,12 @@ img {
 
 h2.featured-title {
   padding-left: 15px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+h3.article-title {
+  font-weight: bold;
 }
 
 div.markup-image {
@@ -53,11 +62,6 @@ div.markup-image {
 article {
   text-align: center;
 }
-
-p.description {
-  font-weight: 0.9em;
-}
-
 
 @media screen and (max-width: 480px) {
   body {
