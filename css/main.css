@@ -2,6 +2,7 @@ body {
   font-size: 13px;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
+  padding-bottom: 20px;
 }
 
 .site-header {
@@ -40,7 +41,7 @@ img {
   width: 100%;
 }
 
-h3.featured-title {
+h2.featured-title {
   padding-left: 15px;
 }
 
@@ -58,11 +59,15 @@ div.markup-image {
     font-size: 1.5em;
   }
 
-  h3.dev-title, h3.featured-title {
+  h2.featured-title {
+    font-size: 1.2em;
+  }
+
+  p.dev-title, h3.article-title {
     font-size: 1.1em;
   }
 
-  h3.dev-title {
+  p.dev-title {
     margin-top: 5px;
   }
 }
