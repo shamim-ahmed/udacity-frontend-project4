@@ -50,18 +50,14 @@ div.markup-image {
   padding-top: 15px;
 }
 
-h3.article-title {
+article {
   text-align: center;
 }
 
 p.description {
   font-weight: 0.9em;
-  text-align: center;
 }
 
-div.details {
-  text-align: center;
-}
 
 @media screen and (max-width: 480px) {
   body {
