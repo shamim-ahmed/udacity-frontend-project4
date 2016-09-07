@@ -44,6 +44,11 @@ h3.featured-title {
   padding-left: 15px;
 }
 
+div.markup-image {
+  border-top: 2px solid gray;
+  padding-top: 15px;
+}
+
 @media screen and (max-width: 480px) {
   body {
     font-size: 10px;
