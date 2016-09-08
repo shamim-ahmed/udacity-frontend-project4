@@ -3,11 +3,19 @@ body {
   padding-bottom: 20px;
 }
 
-.description {
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
+figcaption {
+  text-align: center;
 }
 
+img {
+  width: 100%;
+}
+
+article {
+  text-align: center;
+}
+
+/** styles for elements in header **/
 .site-header {
   margin-top: 20px;
 }
@@ -17,6 +25,20 @@ body {
   max-width: 100%;
 }
 
+.dev-name {
+  margin-top: 0;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+.dev-info {
+  text-align: right;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+/** styles for elements in sidebar **/
 .color-image {
   margin: 0 auto;
 }
@@ -26,65 +48,47 @@ body {
   width: 66.67%;
 }
 
-figcaption {
-  text-align: center;
-}
-
-.dev-name {
-  margin-top: 0;
-  text-transform: uppercase;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-}
-
-.dev-info {
-  text-align: right;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-}
-
 .color-code {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 300;
 }
 
-img {
-  width: 100%;
-}
-
-.featured-title {
-  padding-left: 15px;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-}
-
-.article-title {
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-}
-
+/** styles for elements in main section **/
 .markup-image {
   border-top: 2px solid gray;
   padding-top: 15px;
 }
 
-article {
-  text-align: center;
+.featured-title {
+  padding-left: 15px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+.article-title {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.description {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
 }
 
 .details button {
   text-transform: uppercase;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
 }
-/** all style definitions related to modal dialog **/
+
+/** styles for elements in modal dialog **/
 .modal-body img {
   width: 50%;
   margin: 0 auto;
 }
 
 .modal-title {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
 }
 
@@ -95,7 +99,7 @@ article {
 
 .modal-footer button {
   text-transform: uppercase;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
 }
 
