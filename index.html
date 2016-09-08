@@ -1,156 +1,156 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet"/>
-  <link rel="stylesheet" href="css/main.css"/>
-  <link rel="stylesheet" href="css/bootstrap.min.css"/>
-  <script src="js/jquery-3.1.0.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <title>My Portfolio</title>
-</head>
-<body>
-  <div class="container">
-    <!-- the header -->
-    <header class="row site-header">
-      <div class="col-xs-2">&nbsp;</div>
-      <div class="col-xs-2 logo">
-        <img src="images/logo.jpg" alt="Udacity Logo"/>
-      </div>
-      <div class="col-xs-8 dev-info">
-        <h1 class="dev-name">Shamim Ahmed</h1>
-        <p class="dev-title">Android/Web Developer</p>
-      </div>
-    </header>
-    <main>
-      <div class="row">
-        <aside>
-          <div class="col-xs-2">
-            <figure class="color-image">
-              <img src="images/color_02b3e4.png" alt="first image"/>
-              <figcaption class="color-code">#02b3e4</figcaption>
-            </figure>
-            <figure class="color-image">
-              <img src="images/color_2d3c49.png" alt="second image"/>
-              <figcaption class="color-code">#2d3c49</figcaption>
-            </figure>
-            <figure class="color-image">
-              <img src="images/color_7d97ad.png" alt="third image"/>
-              <figcaption class="color-code">#7d97ad</figcaption>
-            </figure>
-          </div>
-        </aside>
-        <section class="col-xs-10">
-          <div class="markup-image">
-            <img src="images/html_markup.jpg" alt="HTML markup image"/>
-          </div>
-          <div class="row">
-            <h2 class="featured-title">Featured Work</h2>
-          </div>
-          <div class="row">
-            <article class="col-xs-4">
-              <img src="images/movie-buff.png" alt="MovieBuff App"/>
-              <h3 class="article-title">MovieBuff</h3>
-              <p class="description">An Android app for movie lovers</p>
-              <div class="details">
-                <button type="button" data-toggle="modal" data-target="#movie-buff">Details</button>
-              </div>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- the header -->
+      <header class="row site-header">
+        <div class="col-xs-2">&nbsp;</div>
+        <div class="col-xs-2 logo">
+          <img src="images/logo.jpg" alt="Udacity Logo"/>
+        </div>
+        <div class="col-xs-8 dev-info">
+          <h1 class="dev-name">Shamim Ahmed</h1>
+          <p class="dev-title">Android/Web Developer</p>
+        </div>
+      </header>
+      <main>
+        <div class="row">
+          <aside>
+            <div class="col-xs-2">
+              <figure class="color-image">
+                <img src="images/color_02b3e4.png" alt="first image"/>
+                <figcaption class="color-code">#02b3e4</figcaption>
+              </figure>
+              <figure class="color-image">
+                <img src="images/color_2d3c49.png" alt="second image"/>
+                <figcaption class="color-code">#2d3c49</figcaption>
+              </figure>
+              <figure class="color-image">
+                <img src="images/color_7d97ad.png" alt="third image"/>
+                <figcaption class="color-code">#7d97ad</figcaption>
+              </figure>
+            </div>
+          </aside>
+          <section class="col-xs-10">
+            <div class="markup-image">
+              <img src="images/html_markup.jpg" alt="HTML markup image"/>
+            </div>
+            <div class="row">
+              <h2 class="featured-title">Featured Work</h2>
+            </div>
+            <div class="row">
+              <article class="col-xs-4">
+                <img src="images/movie-buff.png" alt="MovieBuff App"/>
+                <h3 class="article-title">MovieBuff</h3>
+                <p class="description">An Android app for movie lovers</p>
+                <div class="details">
+                  <button type="button" data-toggle="modal" data-target="#movie-buff">Details</button>
+                </div>
 
-              <!-- the content of the modal dialog -->
-              <div id="movie-buff" class="modal fade" role="dialog">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <button type="button" class="close" data-dismiss="modal">&times;</button>
-                      <h4 class="modal-title">MovieBuff</h4>
-                    </div>
-                    <div class="modal-body">
-                      <img src="images/movie-buff.png" alt="MovieBuff App"/>
-                      <p class="description">
-                        MovieBuff is an Android app that uses the moviedb.org API to fetch
-                        various data related to popular movies. The app allows the user to
-                        sort movies based on their popularity or release date. For each movie,
-                        the synopsis, rating and trailers are shown. Moreover, the user can
-                        save the details of a particular movie for future reference.
-                      </p>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" data-dismiss="modal">Close</button>
+                <!-- the content of the modal dialog -->
+                <div id="movie-buff" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">MovieBuff</h4>
+                      </div>
+                      <div class="modal-body">
+                        <img src="images/movie-buff.png" alt="MovieBuff App"/>
+                        <p class="description">
+                          MovieBuff is an Android app that uses the moviedb.org API to fetch
+                          various data related to popular movies. The app allows the user to
+                          sort movies based on their popularity or release date. For each movie,
+                          the synopsis, rating and trailers are shown. Moreover, the user can
+                          save the details of a particular movie for future reference.
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" data-dismiss="modal">Close</button>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </article>
-            <article class="col-xs-4">
-              <img src="images/weather-info.png" alt="WeatherInfo app"/>
-              <h3 class="article-title">WeatherInfo</h3>
-              <p class="description">An Android app for weather forecast</p>
-              <div class="details">
-                <button type="button" data-toggle="modal" data-target="#weather-info">Details</button>
-              </div>
+              </article>
+              <article class="col-xs-4">
+                <img src="images/weather-info.png" alt="WeatherInfo app"/>
+                <h3 class="article-title">WeatherInfo</h3>
+                <p class="description">An Android app for weather forecast</p>
+                <div class="details">
+                  <button type="button" data-toggle="modal" data-target="#weather-info">Details</button>
+                </div>
 
-              <!-- the content of the modal dialog -->
-              <div id="weather-info" class="modal fade" role="dialog">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <button type="button" class="close" data-dismiss="modal">&times;</button>
-                      <h4 class="modal-title">WeatherInfo</h4>
-                    </div>
-                    <div class="modal-body">
-                      <img src="images/weather-info.png" alt="WeatherInfo app"/>
-                      <p class="description">
-                        WeatherInfo is an android app that utilizes the data from the WeatherData API
-                        to show weather forecast to the user. The user is required to specify the name
-                        of his city and/or country in order to see relevant information. This app also
-                        has the capability to send forecast data to the user's Android watch.
-                      </p>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" data-dismiss="modal">Close</button>
+                <!-- the content of the modal dialog -->
+                <div id="weather-info" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">WeatherInfo</h4>
+                      </div>
+                      <div class="modal-body">
+                        <img src="images/weather-info.png" alt="WeatherInfo app"/>
+                        <p class="description">
+                          WeatherInfo is an android app that utilizes the data from the WeatherData API
+                          to show weather forecast to the user. The user is required to specify the name
+                          of his city and/or country in order to see relevant information. This app also
+                          has the capability to send forecast data to the user's Android watch.
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" data-dismiss="modal">Close</button>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </article>
-            <article class="col-xs-4">
-              <img src="images/pet-rescue.png" alt="PetRescue website"/>
-              <h3 class="article-title">PetRescue</h3>
-              <p class="description">A website for adopting animals</p>
-              <div class="details">
-                <button class="details" type="button" data-toggle="modal" data-target="#pet-rescue">Details</button>
-              </div>
+              </article>
+              <article class="col-xs-4">
+                <img src="images/pet-rescue.png" alt="PetRescue website"/>
+                <h3 class="article-title">PetRescue</h3>
+                <p class="description">A website for adopting animals</p>
+                <div class="details">
+                  <button class="details" type="button" data-toggle="modal" data-target="#pet-rescue">Details</button>
+                </div>
 
-              <!-- the content of the modal dialog -->
-              <div id="pet-rescue" class="modal fade" role="dialog">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <button type="button" class="close" data-dismiss="modal">&times;</button>
-                      <h4 class="modal-title">PetRescue</h4>
-                    </div>
-                    <div class="modal-body">
-                      <img src="images/pet-rescue.png" alt="PetRescue website"/>
-                      <p class="description">
-                        PetRescue is a website that allows anyone to adopt a homeless pet. A team of
-                        volunteers regularly update the website with information related to available
-                        pets. Apart from finding new homes for abandoned pets, this website also
-                        helps reunite lost pets with their owners.
-                      </p>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <!-- the content of the modal dialog -->
+                <div id="pet-rescue" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">PetRescue</h4>
+                      </div>
+                      <div class="modal-body">
+                        <img src="images/pet-rescue.png" alt="PetRescue website"/>
+                        <p class="description">
+                          PetRescue is a website that allows anyone to adopt a homeless pet. A team of
+                          volunteers regularly update the website with information related to available
+                          pets. Apart from finding new homes for abandoned pets, this website also
+                          helps reunite lost pets with their owners.
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </article>
-          </div>
-        </section>
-      </div>
-    </main>
-  </div>
-</body>
+              </article>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>
